@@ -1,0 +1,4 @@
+Students:
+Instructors:
+0,john,$2b$12$Sh6toeH0NGwU5/cqMFhO4OeeLkEmdjbM5RQaGqG8QCV4Bq.2hWkIm
+1,mark,$2b$12$ww.QHu0MBmgNl0AGKD4HR.p0pWUVyt2Q4ZKQIRsjfc8wxzhk5i3km
