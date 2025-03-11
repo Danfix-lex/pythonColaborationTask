@@ -53,7 +53,7 @@ def verify_email(email: str) -> bool:
 
 def register_as_instructor(course_manager):
     user_id = validate_id("Please enter your id")
-    username = input("Please enter your username: ")
+    username = input("Please enter your name: ")
     password = input("Please enter your password: ")
     while True:
         email = input("Please enter your email: ")

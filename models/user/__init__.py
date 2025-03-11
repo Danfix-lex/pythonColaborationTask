@@ -22,6 +22,5 @@ class User:
     #     return self.email == email
 
 
-
     def __str__(self):
         return f"User(ID: {self.user_id}, Username: {self.username}, Role: {self.role})"

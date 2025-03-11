@@ -31,8 +31,11 @@ class CourseManager:
         self.save_to_file()
 
     def add_course(self, course: Course):
-        for specific_course in self.courses:
-            if specific_course.course_id == course.course_id:
+        # for specific_course in self.courses:
+            # if specific_course.course_id == course.course_id:
+        for course in self.courses:
+            if course in self.courses:
+
                 raise RepeatedCourseCreationException("Course already exists!")
         self.courses.append(course)
         self.save_to_file()
@@ -90,12 +93,10 @@ class CourseManager:
                 for course in self.courses:
                     u.write(f"{course.course_id},{course.name},{course.credits}\n")
 
-                # f.write('Courses:\n')
-                # for course in self.courses:
-                #     f.write(f"{course.course_id},{course.course_id},{course.credits}\n")
-                # f.write('Enrollments:\n')
-                # for enrollment in self.enrollments:
-                #     f.write(f"{enrollment.enrollment_id},{enrollment.student_id},{enrollment.course_id}\n")
+            with open('enrollments.txt', 'w') as v:
+                v.write('Enrollments:\n')
+                for enrollment in self.enrollments:
+                    v.write(f"{enrollment.enrollment_id},{enrollment.student_id},{enrollment.course_id}\n")
 
     def load_from_file(self):
         try:
@@ -107,39 +108,15 @@ class CourseManager:
                         continue
                     if line == 'Students:':
                         section = 'students'
-                    # elif line == 'Instructors:':
-                    #     section = 'instructors'
-                    # elif line == 'Courses:':
-                    #     section = 'courses'
-                    # elif line == 'Enrollments:':
-                    #     section = 'enrollments'
-                    # elif section == 'students' and line:
+                    elif section == 'students' and line:
+
                         try:
                             user_id, username, password_hash, email = line.split(',')
                             password_hash = password_hash.encode('utf-8')
                             self.students.append(Student(int(user_id), username, password_hash, email))
                         except ValueError:
                             print(f"Error reading student data: {line}")
-                    # elif section == 'instructors' and line:
-                    #     try:
-                    #         print(f"Reading instructor {line}")
-                    #         user_id, username, password_hash, email = line.split(',')
-                    #         password_hash = password_hash.encode('utf-8')
-                    #         self.instructors.append(Instructor(int(user_id), username, password_hash, email))
-                    #     except ValueError:
-                    #         print(f"Error reading instructor data: {line}")
-                    # elif section == 'courses' and line:
-                    #     try:
-                    #         course_id, name, instructor_id = line.split(',')
-                    #         self.courses.append(Course(int(course_id), name, int(instructor_id), 4))
-                    #     except ValueError:
-                    #         print(f"Error reading course data: {line}")
-                    # elif section == 'enrollments' and line:
-                    #     try:
-                    #         enrollment_id, student_id, course_id = line.split(',')
-                    #         self.enrollments.append(Enrollment(int(enrollment_id), int(student_id), int(course_id)))
-                    #     except ValueError:
-                    #         print(f"Error reading enrollment data: {line}")
+
             with open('instructors.txt', 'r') as u:
                 section = None
                 for line in u:
@@ -148,6 +125,7 @@ class CourseManager:
                         continue
                     if line == 'Instructors:':
                         section = 'instructors'
+                    elif section == 'instructors' and line:
 
                         try:
                             user_id, username, password_hash, email = line.split(',')
@@ -157,6 +135,24 @@ class CourseManager:
                             self.courses.append(Course(int(course_id), name, int(instructor_id), credits))
                         except ValueError:
                             print(f"Error reading instructor data: {line}")
+
+            with open('enrollments.txt', 'r') as v:
+                section = None
+                for line in v:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    if line == 'Enrollments:':
+                        section = 'enrollments'
+                    elif section == 'enrollments' and line:
+
+                        try:
+                            enrollment_id, student_id, course_id = line.split(',')
+                            self.enrollments.append(Enrollment(int(enrollment_id), int(student_id), int(course_id)))
+                        except ValueError:
+                            print(f"Error reading enrollment data: {line}")
+
+
 
         except FileNotFoundError:
             print("No previous data found, starting fresh.")
