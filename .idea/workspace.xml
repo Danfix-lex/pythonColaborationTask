@@ -4,144 +4,125 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14bf07e3-28d7-453c-85ea-f8e5fbd13f45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem Current Version/managers/course_manager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentCourseManagementSystem Current Version/managers/course_manager/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/.idea/StudentCourseManagementSystem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/managers/course_manager/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/models/course/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/models/enrollment/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/models/instructor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/models/student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/models/user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/tests/test_course_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/tests/test_instructor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/tests/test_student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystem/tests/test_user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/.idea/StudentCourseManagementSystem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt-4.2.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt/__init__.pyi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt/_bcrypt.abi3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/bcrypt/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/main/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/managers/course_manager/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/models/course/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/models/enrollment/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/models/instructor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/models/student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/models/user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/tests/test_course_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/tests/test_instructor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/tests/test_student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemCurrent/tests/test_user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/.idea/StudentCourseManagementSystemLatestVersion (1).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/.idea/StudentCourseManagementSystem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/Pipfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt-4.2.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt/__init__.pyi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt/_bcrypt.abi3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/bcrypt/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/database/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/managers/course_manager/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/models/course/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/models/enrollment/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/models/instructor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/models/student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/models/user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/tests/test_course_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/tests/test_instructor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/tests/test_student/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/StudentCourseManagementSystem/tests/test_user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseManagementSystemLatestVersionDatabase/StudentCourseManagementSystemLatestVersion (1)/collaboration.drawio" beforeDir="false" />
+    <list default="true" id="ce3ec4ad-3b07-479f-ab68-9d36a8b92404" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cholda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index__five.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_four.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_three.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_two.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style_four.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style_one.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style_three.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style_two.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigma/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigma/.idea/classWorkFigma.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigma/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigma/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigma/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigma/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigmaTwo/.idea/classWorkFigmaTwo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigmaTwo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classWorkFigmaTwo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../DOM/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2uE4sbsNANJ14zJ4VAbneU6JfsW" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2vAB0huTOWOlEhOPJh5ttG08mOc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/danfix/pythonColaborationTask/StudentCourseManagementSystem Current Version",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.14.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danfix/javaScript/cholda&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
-        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14bf07e3-28d7-453c-85ea-f8e5fbd13f45" name="Changes" comment="" />
-      <created>1741800607573</created>
+      <changelist id="ce3ec4ad-3b07-479f-ab68-9d36a8b92404" name="Changes" comment="" />
+      <created>1743577776466</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741800607573</updated>
-      <workItem from="1741800608854" duration="1735000" />
+      <updated>1743577776466</updated>
+      <workItem from="1743577777528" duration="2193000" />
+      <workItem from="1743582220166" duration="7409000" />
+      <workItem from="1743600458320" duration="660000" />
+      <workItem from="1743601267106" duration="2506000" />
+      <workItem from="1743605160990" duration="11135000" />
+      <workItem from="1743660866036" duration="5329000" />
+      <workItem from="1743690793516" duration="1954000" />
+      <workItem from="1743707720556" duration="5003000" />
+      <workItem from="1743745028046" duration="3444000" />
+      <workItem from="1743763403644" duration="9206000" />
+      <workItem from="1743947744020" duration="1007000" />
+      <workItem from="1743950048093" duration="3302000" />
+      <workItem from="1744089287880" duration="1313000" />
+      <workItem from="1744095081056" duration="236000" />
     </task>
     <servers />
   </component>
